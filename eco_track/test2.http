@@ -1,0 +1,4 @@
+POST http://localhost/eco_track/process.php
+Content-Type: application/x-www-form-urlencoded
+
+fullname=John Doe&student_id=&category=Tree Planting&description=short text

@@ -1,0 +1,4 @@
+POST http://localhost/eco_track/process.php
+Content-Type: application/x-www-form-urlencoded
+
+fullname=westley gitau&student_id=SSE001&category=Tree Planting&description=I planted 10 trees around campus to reduce carbon footprint.

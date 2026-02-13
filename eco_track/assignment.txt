@@ -1,0 +1,56 @@
+Case Study One: The "Eco-Track" Student Sustainability Portal (Total Marks: 30) 
+Background 
+Kirinyaga University (KyU) wants to encourage students to track their personal carbon 
+footprint reduction (e.g., using reusable bottles, planting trees, or carpooling). You are tasked 
+with developing the initial backend prototype for the Eco-Track Portal. 
+Tasks and Mark Distribution 
+1. Server Architecture & Networking (5 Marks) 
+A. Explain how the HTTP protocol facilitates the communication between a student's 
+browser (the client) and your XAMPP server when they submit their sustainability 
+data. (2 Marks) :
+When a student submits sustainability data:
+
+1.The browser (client) creates an HTTP POST request.
+
+2.The request is sent to http://localhost/eco_track/process.php.
+
+3.Apache (in XAMPP) receives the request.
+
+4.Apache passes the request to the PHP interpreter.
+
+5.PHP processes the data.
+
+6.A response (HTML) is returned to the browser via HTTP.
+
+7.The browser renders the response.
+
+HTTP acts as the communication protocol that:
+
+1.Defines request format (GET/POST)
+
+2.Defines response codes (200 OK, 404 Not Found)
+
+3.Transfers form data from client to server
+B. Detail the specific directory path within XAMPP where your project  iles must be 
+stored to be accessible via http://localhost/eco_track. (1 Mark) :
+C:\xampp\htdocs\eco_track
+Accessible via:
+
+http://localhost/eco_track
+C. Required XAMPP Service :
+
+Apache Server
+
+Apache:
+
+Listens for HTTP requests
+
+Executes PHP scripts
+
+Returns responses to the browser
+
+Without Apache running, PHP files cannot execute.
+2. Environment Setup & Language Fundamentals (10 Marks)
+
+
+

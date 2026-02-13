@@ -1,0 +1,26 @@
+CASE STUDY TWO
+KyU Masomo Resource Exchange
+A1. DNS Role:
+
+DNS converts: www.kyu.ac.ke into an IP address.
+
+Process:
+
+Browser queries DNS
+
+DNS returns server IP
+
+Browser sends HTTP request to that IP
+
+Without DNS, users must enter raw IP addresses.
+A2. Document Root Path:
+C:\xampp\htdocs\masomo_exchange
+The HTTP 200 OK status code indicates that the Apache server successfully received, processed, and responded to the client’s request without any errors.
+
+In this application, it confirms that:
+
+Apache is running
+
+The server is reachable
+
+The HTTP request-response cycle is functioning correctly
